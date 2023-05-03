@@ -1,0 +1,122 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+    margin-top: 1%;
+}
+
+h3{
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+p{
+    margin-left: 1%;
+}
+
+ol{
+    margin-left: 1%;
+}
+
+/*Imagen del código de error*/
+.error-img{
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+    border-color: orange;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: black;
+}
+
+/*Breadcrumbs*/
+#bread1{
+    margin-top: 1%;
+    margin-left: 0%;
+    font-weight: bold;
+}
+
+#bread2{
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+#btn-crear{
+    margin-left: 1%;
+}
+
+.valores{
+    margin-bottom: 13%;
+}
+
+
+/*Contenido del Carrusel*/
+.container-slider{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    /*Oculta las imagenes*/
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff, 0 15px 50px;
+    position: relative;
+}
+.slider{
+    display: flex;
+    /*Depende de la cantidad de las imagenes a integrar*/
+    width: 400%;
+    height: 600px;
+    margin-left: -100%;
+}
+.slider__section{
+    width: 100%;
+}
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider__btn:hover{
+    background: #fff;
+}
+.slider__btn--left{
+    left: 10px;
+}
+.slider__btn--right{
+    right: 10px;
+}

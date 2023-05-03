@@ -1,0 +1,31 @@
+===============DESARROLLO WEB PROFESIONAL==================
+-Lista de completados-
+1. Limitaciones en el nombre y apellido - Completado
+2. Validación de formularios - Completados los formularios login, registro, recuperación de contraseñas
+3. Validación en el año de registro - Compleado
+4. Recuperación de contraseña - Completado
+5. Autenticación de doble factor - Completado
+6. Manejo de códigos de error (400, 404 y 500) - Completado
+7. Verificación de correos - Completado
+
+-Pendientes-
+8. Busquedas avanzadas (Por diferentes filtros: trabajo, sexo, lugar)
+9. Validación de formularios con Js
+10. Dashboard en las sesiones
+
+==========SEGURIDAD EN EL DESARROLLO DE APLICACIONES=======
+-Lista de Completados-
+1. Aumentar la longitud de la dirección de los correos electronicos a 100 caracteres - Completado
+
+-Pendientes-
+2. Registro de usuarios validaciones de nombre, apellidos y fechas
+3. Validaciones de la contraseña html y Js
+4. Si no se logra registrar, que no borre los datos que ya había llenado
+5. Validaciones en el login (que indique en que nos equivocamos)
+
+===============IMPLEMENTACIONES NECESARIAS=================
+1. Definir sesiones de usuarios (empleado, empleador y administrador)
+2. Enrutar las direcciones dentro de cada sesión
+3. Proteger cada una de las sesiones de usuarios
+
+===========================================================
